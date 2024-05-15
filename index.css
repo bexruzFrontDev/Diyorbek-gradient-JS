@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8a6cff;
+}
+
+.main {
+  width: 650px;
+  padding: 25px;
+  box-shadow: 0px 10px 15px -3px #fff;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.box {
+  width: 100%;
+  height: 320px;
+  border-radius: 7px;
+  background: linear-gradient(to left top, #977dfe, #6878ff);
+}
+
+.ota :where(.column, button) {
+  width: clac(100% / 2 - 12px);
+}
+
+.ota {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.options p{
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.select-box {
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #aaa;
+}
+
+select {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: none;
+  font-size: 18px;
+}
+
+.colors input {
+  height: 40px;
+  width: 100px;
+}
+
+.main textarea{
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  resize: none;
+}
+
+
+.copy{
+  padding: 20px 0;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 220px;
+  background-color: #8a6cff;
+  margin-top: 20px;
+}
+
+
+.btn{
+ display: flex;
+ justify-content: center;
+}
